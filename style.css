@@ -1,0 +1,76 @@
+
+header{
+  background: #333;
+  color: #fff;
+  padding:16px;
+  
+}
+
+
+.div1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+nav{
+  display: flex;
+  gap: 20px;
+
+
+
+}
+nav a{
+  color: white;
+  text-decoration:underline;
+  font-size: 18px;
+  font-size: 20px;
+}
+nav a:hover{
+color:white;
+opacity: 0.8;
+}
+.logo{
+  font-size: 40px;
+  margin-left: 40px;
+}
+.name{
+  display: flex;
+  margin-left: 40px;
+  color: rgb(50, 50, 50);
+}
+.intro{
+  color: rgba(128, 128, 128, 0.881);
+  margin-left: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+  max-width: 1000px;
+
+}
+.profile-pic{
+  width: 350px;
+  height: 350px;
+  border-radius:10px;
+  margin-right: 20px;
+  object-fit: cover;
+
+}
+.text{
+
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  margin-top: 80px;
+  
+}
+.who{
+  font-size: 30px;
+}
+.hello{
+  color: grey;
+}
