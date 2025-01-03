@@ -38,6 +38,7 @@ opacity: 0.8;
   display: flex;
   margin-left: 40px;
   color: rgb(50, 50, 50);
+  flex: 1;
 }
 .intro{
   color: rgba(128, 128, 128, 0.881);
@@ -71,6 +72,14 @@ opacity: 0.8;
 .who{
   font-size: 30px;
 }
-.hello{
-  color: grey;
+.Portfolio{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.line{
+  width: 2px;
+  height: 100%;
+  background-color: rgb(50, 50, 50);
 }
