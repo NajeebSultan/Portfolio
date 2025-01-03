@@ -47,9 +47,8 @@ opacity: 0.8;
 }
 .container{
   display: flex;
-  align-items: flex-start;
-  margin: 20px;
-  max-width: 1000px;
+  gap: 20px;
+  
 
 }
 .profile-pic{
@@ -80,6 +79,8 @@ opacity: 0.8;
 }
 .line{
   width: 20px;
-  height: auto;
-  background-color:black;
+  height: 600px;
+  background-color:rgba(50, 50, 50, 0.867);
+  margin-left: 70px;
+  margin-top: 20px;
 }
