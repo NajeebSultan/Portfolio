@@ -84,3 +84,24 @@ opacity: 0.8;
   margin-left: 70px;
   margin-top: 20px;
 }
+.flex{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 100vh;
+  border: solid;
+  padding: 20px;
+  background-color: beige;
+
+
+}
+.box{
+  flex:1;
+  background-color: beige;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  margin: 0 10px;
+
+}
