@@ -86,30 +86,33 @@ opacity: 0.8;
 }
 
 .section {
-  display: flex;                    /* Use flexbox for alignment */
-  justify-content: space-between;   /* Space between cards */
-  align-items: center;              /* Center align the cards */
+  display: flex;                  
+  justify-content: space-between;   
+  align-items: center;              
   
-  background-image: url('image.jpg'); /* Background image */
-  background-size: cover;           /* Ensure the background image covers the whole area */
-  background-position: center;      /* Center the background image */
-  height: 1000x;                    /* Full viewport height */
+  background-image: url('image.jpg');
+  background-size: cover;          
+  background-position: center;      
+  height: 1000x;   
+  padding: 20px          
 }
 
-/* Card styling */
+
 .card {
-  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  border-radius: 10px;              /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  text-align: center;               /* Center text alignment */
-  width: 30%;                       /* Each card takes up 30% of the container width */
+  border-radius: 10px;           
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: center;               
+  width: 30%;   
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  height: 300px;
+  
 }
 
-/* Icon styling */
-.icon {
-  width: 100px                    /* Icon width */
-  height: 100px                 /* Maintain aspect ratio */
-  margin-bottom: 10px;              /* Add spacing below the icon */
+.icon{
+  width: 100px     ;    
+  height: 100px   ;            
+  margin-bottom: 10px;            
 }
 
